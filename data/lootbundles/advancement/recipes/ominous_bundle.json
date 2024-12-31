@@ -1,0 +1,36 @@
+{
+	"criteria": {
+	  "has_red_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:red_glazed_terracotta"
+			}
+		  ]
+		}
+	  },
+	  "has_diamonds": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:diamond",
+			  "count": 3
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"has_red_glazed_terracotta",
+		"has_diamonds"
+	  ]
+	],
+	"rewards": {
+	  "recipes": [
+		"lootbundles:ominous_bundle"
+	  ]
+	}
+  }

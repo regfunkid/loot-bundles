@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "lootbundles:uncommon_bundle"
+      }
+    },
+    "title": {
+      "translate": "advancement.lootbundles.reroll.title"
+    },
+    "description": {
+	  "translate": "advancement.lootbundles.reroll.description" 
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "lootbundles:root",
+  "criteria": {
+    "rerolled bundle": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

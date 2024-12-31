@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "killed mob with epic chance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#lootbundles:epic_loot_chance"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lootbundles:bg/drops/epic"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "killed mob with uncommon chance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#lootbundles:uncommon_loot_chance"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lootbundles:bg/drops/uncommon"
+  }
+}

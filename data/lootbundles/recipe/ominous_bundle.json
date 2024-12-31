@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RTR",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "B": "#minecraft:bundles",
+    "T": "minecraft:chiseled_tuff",
+	"R": "minecraft:red_glazed_terracotta"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:item_model": "lootbundles:ominous_bundle",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "bundle",
+        "sound": "minecraft:block.vault.hit",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "lootbundles:ominous_bundle"
+      },
+      "minecraft:item_name": "{\"translate\":\"item.lootbundles.ominous_bundle\"}",
+      "minecraft:custom_data": "{item_id:\"lootbundles:ominous_bundle\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.lootbundles.ominous_lore\",\"color\":\"gray\"}",
+        "{\"translate\":\"item.lootbundles.lore\",\"color\":\"gray\"}",
+        "{\"text\":\"Loot Bundles\",\"color\":\"blue\"}"
+      ],
+	  "minecraft:rarity": "uncommon"
+    },
+    "count": 1
+  }
+}

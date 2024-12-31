@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "open ominous bundle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"lootbundles:ominous_bundle\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "lootbundles:bg/checkfor/ominous_bundle"
+  }
+}

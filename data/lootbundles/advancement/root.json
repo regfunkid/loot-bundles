@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "lootbundles:common_bundle"
+      }
+    },
+    "title": {
+      "translate": "advancement.lootbundles.root.title"
+    },
+    "description": {
+	  "translate": "advancement.lootbundles.root.description" 
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "obtain vault bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"lootbundles:vault_bundle\"}"
+            }
+          }
+        ]
+      }
+    },
+    "obtain ominous bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"lootbundles:ominous_bundle\"}"
+            }
+          }
+        ]
+      }
+    },
+	"obtain common bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"lootbundles:common_bundle\"}"
+            }
+          }
+        ]
+      }
+    },
+	"obtain uncommon bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"lootbundles:uncommon_bundle\"}"
+            }
+          }
+        ]
+      }
+    },
+	"obtain rare bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"lootbundles:rare_bundle\"}"
+            }
+          }
+        ]
+      }
+    },
+	"obtain epic bundle": {
+      "trigger": "minecraft:inventory_changed",
+     "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"lootbundles:epic_bundle\"}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain vault bundle",
+      "obtain ominous bundle",
+	  "obtain common bundle",
+	  "obtain uncommon bundle",
+	  "obtain rare bundle",
+	  "obtain epic bundle"
+    ]
+  ]
+}

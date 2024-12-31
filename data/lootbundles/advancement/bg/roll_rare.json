@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "killed mob with rare chance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#lootbundles:rare_loot_chance"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lootbundles:bg/drops/rare"
+  }
+}

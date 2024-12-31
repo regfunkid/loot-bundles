@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/common_ores"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/common_foods"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/common_materials"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/common_blocks"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "lootbundles:common_bundle"
+}

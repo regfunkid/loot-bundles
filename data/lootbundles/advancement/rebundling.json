@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "lootbundles:ominous_bundle"
+      }
+    },
+    "title": {
+      "translate": "advancement.lootbundles.rebundling.title"
+    },
+    "description": {
+	  "translate": "advancement.lootbundles.rebundling.description" 
+	},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+	"hidden": true
+  },
+  "parent": "lootbundles:trial_by_bundle",
+  "criteria": {
+    "open ominous bundle": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/rare_ores"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/rare_foods"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/rare_materials"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "lootbundles:goodies/rare_blocks"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "lootbundles:rare_bundle"
+}

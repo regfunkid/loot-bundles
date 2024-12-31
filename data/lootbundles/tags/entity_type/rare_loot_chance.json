@@ -1,0 +1,19 @@
+{
+  "values": [
+	"minecraft:blaze",
+	"minecraft:breeze",
+	"minecraft:elder_guardian",
+	"minecraft:enderman",
+	"minecraft:evoker",
+	"minecraft:ghast",
+	"minecraft:guardian",
+	"minecraft:hoglin",
+	"minecraft:piglin_brute",
+	"minecraft:pillager",
+	"minecraft:ravager",
+	"minecraft:shulker",
+	"minecraft:vindicator",
+	"minecraft:wither_skeleton",
+	"minecraft:zoglin"
+  ]
+}

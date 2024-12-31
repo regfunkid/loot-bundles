@@ -1,0 +1,47 @@
+{
+	"criteria": {
+	  "has_chiseled_tuff": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:chiseled_tuff"
+			}
+		  ]
+		}
+	  },
+	  "has_copper_ingots": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:copper_ingot",
+			  "count": 3
+			}
+		  ]
+		}
+	  },
+	  "has_bundle": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "#minecraft:bundles"
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"has_chiseled_tuff",
+		"has_copper_ingots",
+		"has_bundle"
+	  ]
+	],
+	"rewards": {
+	  "recipes": [
+		"lootbundles:vault_bundle"
+	  ]
+	}
+  }

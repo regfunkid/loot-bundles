@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "killed mob with common chance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#lootbundles:common_loot_chance"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lootbundles:bg/drops/common"
+  }
+}

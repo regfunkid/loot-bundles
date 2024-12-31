@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    "CBC",
+    " C "
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "B": "#minecraft:bundles",
+    "T": "minecraft:chiseled_tuff"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:item_model": "lootbundles:vault_bundle",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "bundle",
+        "sound": "minecraft:block.vault.hit",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "lootbundles:vault_bundle"
+      },
+      "minecraft:item_name": "{\"translate\":\"item.lootbundles.vault_bundle\"}",
+      "minecraft:custom_data": "{item_id:\"lootbundles:vault_bundle\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.lootbundles.vault_lore\",\"color\":\"gray\"}",
+        "{\"translate\":\"item.lootbundles.lore\",\"color\":\"gray\"}",
+        "{\"text\":\"Loot Bundles\",\"color\":\"blue\"}"
+      ]
+    },
+    "count": 1
+  }
+}
